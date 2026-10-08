@@ -1,0 +1,55 @@
+{
+  "name": "korean-pii-redact",
+  "version": "0.1.0",
+  "description": "Redact Korean PII (주민등록번호, 사업자등록번호, 법인등록번호, 전화번호, 카드번호, 이메일) before sending text to LLMs, logs, or third parties.",
+  "keywords": [
+    "pii",
+    "redact",
+    "redaction",
+    "korean",
+    "privacy",
+    "llm",
+    "anonymize",
+    "주민등록번호",
+    "개인정보",
+    "비식별화"
+  ],
+  "license": "MIT",
+  "author": "Project-kk1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-kk1/korean-pii-redact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Project-kk1/korean-pii-redact/issues"
+  },
+  "homepage": "https://github.com/Project-kk1/korean-pii-redact#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run test && npm run build",
+    "prepublishOnly": "npm run check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
