@@ -15,15 +15,15 @@
     "비식별화"
   ],
   "license": "MIT",
-  "author": "Project-kk1",
+  "author": "hoehyeonlab",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Project-kk1/korean-pii-redact.git"
+    "url": "git+https://github.com/hoehyeonlab/korean-pii-redact.git"
   },
   "bugs": {
-    "url": "https://github.com/Project-kk1/korean-pii-redact/issues"
+    "url": "https://github.com/hoehyeonlab/korean-pii-redact/issues"
   },
-  "homepage": "https://github.com/Project-kk1/korean-pii-redact#readme",
+  "homepage": "https://github.com/hoehyeonlab/korean-pii-redact#readme",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

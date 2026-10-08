@@ -1,6 +1,6 @@
 # korean-pii-redact
 
-[![CI](https://github.com/Project-kk1/korean-pii-redact/actions/workflows/ci.yml/badge.svg)](https://github.com/Project-kk1/korean-pii-redact/actions/workflows/ci.yml)
+[![CI](https://github.com/hoehyeonlab/korean-pii-redact/actions/workflows/ci.yml/badge.svg)](https://github.com/hoehyeonlab/korean-pii-redact/actions/workflows/ci.yml)
 
 한국 개인정보(주민등록번호·사업자등록번호·법인등록번호·전화번호·카드번호·이메일)를
 **외부 AI(LLM)·로그·서드파티로 보내기 전에** 비식별화하는 의존성 없는 TypeScript 라이브러리입니다.
